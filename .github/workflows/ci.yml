@@ -21,6 +21,7 @@ jobs:
         run: |
           npm ci
           npm run build
+          npm run docs
 
   test:
     runs-on: ubuntu-latest
